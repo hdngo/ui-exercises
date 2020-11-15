@@ -37,7 +37,7 @@ ele.addEventListener("mousedown", function (e) {
   -- meaning the rect's bounding edges change every time the scroll position changes
   because values are relative to the viewport
   - to get the bounding rect. values relative to the document,
-  add the current scroll poso. to the top and left using window.scrollX and window.scrollY
+  add the current scroll pos. to the top and left using window.scrollX and window.scrollY
 
   - clientX, Y coordinates are relative to the visible part of the page
   - pageX, Y coords are relative to the top left of the page
