@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
