@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.draggable {
+  /* indicate the element is draggable */
+  cursor: move;
+
+  /*  doesn't allow to select inner content */
+  user-select: none;
+}
+
+.dragging {
+  height: 40px;
+  width: 40px;
+  background-color: purple;
+}
