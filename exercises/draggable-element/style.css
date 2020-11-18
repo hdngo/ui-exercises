@@ -1,0 +1,12 @@
+.draggable {
+  /* indicate the element is draggable */
+  cursor: move;
+
+  position: absolute;
+
+  /*  doesn't allow to select inner content */
+  user-select: none;
+
+  /* general styles */
+  border: 1px solid black;
+}
