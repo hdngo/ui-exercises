@@ -1,0 +1,18 @@
+.container {
+  /* cursor: grab indicates that the container can be clicked and dragged */
+  cursor: grab;
+  overflow: auto;
+  border: 1px solid black;
+  justify-content: center;
+  height: 400px;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  height: 45%;
+  margin: 15px 30px;
+}
