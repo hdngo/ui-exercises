@@ -1,0 +1,18 @@
+.draggable {
+  cursor: move;
+  user-select: none;
+  height: 20px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid plum;
+  margin-bottom: 1rem;
+}
+
+.placeholder {
+  background-color: lavender;
+  border: 2px dashed plum;
+  margin-bottom: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
